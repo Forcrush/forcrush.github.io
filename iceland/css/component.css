@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'andreas_pen_mfregular';
+    src: url('../fonts/andreas_pen_mfregular/andrpm-webfont.eot');
+    src: url('../fonts/andreas_pen_mfregular/andrpm-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andreas_pen_mfregular/andrpm-webfont.woff') format('woff'),
+         url('../fonts/andreas_pen_mfregular/andrpm-webfont.ttf') format('truetype'),
+         url('../fonts/andreas_pen_mfregular/andrpm-webfont.svg#andreas_pen_mfregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'brass_monoregular';
+    src: url('../fonts/brass_monoregular/regular-webfont.eot');
+    src: url('../fonts/brass_monoregular/regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brass_monoregular/regular-webfont.woff') format('woff'),
+         url('../fonts/brass_monoregular/regular-webfont.ttf') format('truetype'),
+         url('../fonts/brass_monoregular/regular-webfont.svg#brass_monoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.demo-1 .large-header {
+	background-image: url('../img/demo-1-bg.jpg');
+}
+
+.demo-2 .large-header {
+	background-image: url('../img/demo-2-bg.jpg');
+	background-position: 0% 90%;
+}
+
+.demo-3 .large-header {
+	/*background: #7f8c8d;*/
+	background-image: url('../img/demo-3-bg.jpg');
+	/*background-position: center bottom;*/
+	background-position: center 0%;
+}
+
+.demo-4 .large-header {
+	/*background: #f9f1e9;*/
+	background-image: url('../img/demo-4-bg.jpg');
+	background-position: center bottom;
+}
+
+.mybuu{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: black;
+	text-align: center;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.demo-1 .mybuu{
+	top: 90%;
+	left: 50%;
+}
+
+.demo-2 .mybuu{
+	top: 90%;
+	left: 50%;
+
+}
+.demo-3 .mybuu{
+	top: 90%;
+	left: 50%;
+
+}
+.demo-4 .mybuu{
+	top: 90%;
+	left: 50%;
+
+}
+.mybuu .button1{
+    background-color: transparent;
+    border: none;
+    color: gray;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: andreas_pen_mfregular, cursive;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: transparent; /* #2e4e7e #4CAF50 */
+    color: white;
+}
+
+.mybuu .button2{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family: andreas_pen_mfregular, cursive;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #2e4e7e; /* #4CAF50 */
+    color: white;
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	top: 40%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.demo-1 .main-title, 
+.demo-3 .main-title {
+	font-family: brass_monoregular, cursive;
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
+}
+
+.demo-2 .main-title {
+	font-family: brass_monoregular, cursive; /* Segoe Script */
+	font-weight: normal;
+	font-size: 4.2em;
+	/*padding-left: 10px;*/
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+.demo-2 .main-title::before {
+	content: '';
+	width: 20vw;
+	height: 20vw;
+	min-width: 3.5em;
+	min-height: 3.5em;
+	background: url(../img/deco.svg) no-repeat center center;
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	z-index: -1;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.demo-3 .main-title {
+	/*padding: 10px 40px;
+	border: 10px double #f9f1e9;*/
+	font-family: 'hakuyoxingshu7000', cursive;
+}
+
+.demo-4 .main-title {
+	font-family: 'hakuyoxingshu7000', cursive;
+	font-size: 6em;
+	font-weight: 300;
+	padding: 10px 30px;
+	color: #222;
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title, 
+	.demo-3 .main-title,
+	.demo-4 .main-title {
+		font-size: 3em;
+	}
+
+	.demo-2 .main-title {
+		font-size: 4em;
+	}
+}

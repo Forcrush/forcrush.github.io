@@ -1,0 +1,303 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+.div0{
+	position: absolute;
+	text-align: center;
+	top: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 500px;
+}
+
+#timer{
+	font-size: 1.5em;
+	font-family: "Segoe script","hakuyoxingshu7000","Segoe print";
+}
+
+.div1{
+	position: absolute;
+	text-align: center;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 500px;
+}
+
+.div2{
+	position: absolute;
+	text-align: center;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 500px;
+}
+
+.div3{
+	position: absolute;
+	text-align: center;
+	top: 5%;
+	left: 95%;
+	transform: translateX(-50%);
+	width: 500px;
+}
+
+.iceland1{
+	position: absolute;
+	text-align: center;
+	width:100px;
+	height:75px;
+	top: 10%;
+	left: 10%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(20deg); /* Safari and Chrome */
+}
+
+.iceland2{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 45%;
+	left: 20%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(-20deg); /* Safari and Chrome */
+}
+.iceland3{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 30%;
+	left: 70%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(16deg); /* Safari and Chrome */
+}
+.iceland4{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 50%;
+	left: 60%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(-10deg); /* Safari and Chrome */
+}
+.iceland5{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 80%;
+	left: 0%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(-30deg); /* Safari and Chrome */
+}
+.iceland6{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 20%;
+	left: 25%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(30deg); /* Safari and Chrome */
+}
+.iceland7{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 83%;
+	left: 76%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(-30deg); /* Safari and Chrome */
+}
+.iceland8{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 60%;
+	left: 80%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(30deg); /* Safari and Chrome */
+}
+
+.iceland9{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 15%;
+	left: 55%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(14deg); /* Safari and Chrome */
+}
+
+.iceland10{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 60%;
+	left: 8%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(16deg); /* Safari and Chrome */
+}
+
+.iceland11{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 73%;
+	left: 52%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(24deg); /* Safari and Chrome */
+}
+
+.iceland12{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 74%;
+	left: 22%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(6deg); /* Safari and Chrome */
+}
+
+.iceland13{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 67%;
+	left: 66%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(2deg); /* Safari and Chrome */
+}
+
+.iceland14{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 35%;
+	left: 52%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(7deg); /* Safari and Chrome */
+}
+
+.iceland15{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 35%;
+	left: 5%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(-10deg); /* Safari and Chrome */
+}
+
+.iceland16{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 10%;
+	right: 0%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(26deg); /* Safari and Chrome */
+}
+
+.iceland17{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 90%;
+	left: 60%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(-12deg); /* Safari and Chrome */
+}
+
+.iceland18{
+	position: absolute;
+	text-align: center;
+	width:500px;
+	height:75px;
+	top: 50%;
+	right: 80%;
+	color: rgba(0,0,0,0.5);
+	font-size: 24pt;
+	font-family: Ink Free, ChickenScratchAOE, Gabriola;
+	transform: translateX(-50%);
+	-webkit-transform:rotate(5deg); /* Safari and Chrome */
+}
+
+/* font color*/
+.fc{
+	color: rgba(255,255,255,0.5);
+}
+
+#p1{
+	font-size: 7em;
+	font-family: "Segoe script","hakuyoxingshu7000","Segoe print";
+}

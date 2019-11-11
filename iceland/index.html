@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+ 
+    <link rel="stylesheet" type="text/css" href="css/login.css"/>
+    <script type="text/javascript" src="js/login.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="icon" type="image/png" sizes="48x48" href="img/icon.png">
+</head>
+ 
+<body>
+    <div id="login_frame">
+    	
+        <p id="image_logo"><img width=50 height=50 src="img/login.svg"></p>
+
+        <form method="post" action="login.js">
+            <p><label class="label_input"><i class="fa fa-user-o"></i></label></label><input type="text" id="username" class="text_field" placeholder="The sky is blue" /></p>
+            <p><label class="label_input"><i class="fa fa-key"></i></label><input type="text" id="password" class="text_field" placeholder="Like me and you" /></p>
+     
+            <div id="login_control">
+                <input type="button" id="btn_login" value="Log In" onclick="login();"/>
+                <a id="forget_pwd" href="https://www.dashlane.com/zh">Forget Password ?</a>
+            </div>
+        </form>
+
+    </div>
+    <div style="width: 200px;height: 200px;position: absolute;left: 50%;bottom: 5%;margin-left:-100px;">
+        <script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=Mq5eJOqn8jwlOj4KiHO7rb0rN0_Ipc16VHKOoLpqE1E"></script>
+    </div>
+</body>
+</html>
