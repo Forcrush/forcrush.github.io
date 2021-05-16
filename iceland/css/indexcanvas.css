@@ -12,6 +12,14 @@
 	src:url('../fonts/segoe_script/segoesc.ttf') format('truetype');
 }
 
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'Gabriola';
+	src:url('../fonts/gabriola/Gabriola.ttf') format('truetype');
+}
+
 html,body{
 	margin: 0;
 	padding: 0;
