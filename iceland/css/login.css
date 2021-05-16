@@ -3,7 +3,14 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
 }
- 
+
+@media (max-width: 768px) {
+    body {
+        background-position: 50% 30%;
+        background-size: 400%;
+    }
+}
+
 #login_frame {
     width: 400px;
     height: 260px;

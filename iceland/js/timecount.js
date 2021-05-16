@@ -1,3 +1,9 @@
+/*
+ * @Author: Puffrora
+ * @Date: 2021-05-16 00:28:38
+ * @LastModifiedBy: Puffrora
+ * @LastEditTime: 2021-05-16 01:04:23
+ */
 function timedCount() 
     {
         //di作为一个变量传进来
@@ -17,7 +23,7 @@ function timedCount()
         var leave3=leave2%(60*1000)      //计算分钟数后剩余的毫秒数
         var seconds=Math.round(leave3/1000)
         seconds = seconds < 10 ? "0" + seconds : seconds;
-        var sen = dayDiff+" 天 "+hours+" 时 "+minutes+" 分 "+seconds+" 秒 "
+        var sen = dayDiff+" . "+hours+" . "+minutes+" . "+seconds
 
         document.getElementById('timer').innerHTML = sen
         t=setTimeout("timedCount()",1000)

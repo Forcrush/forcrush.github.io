@@ -39,9 +39,13 @@
 
 .demo-2 .large-header {
 	background-image: url('../img/demo-2-bg.jpg');
-	background-position: 0% 90%;
+	background-position: 0% 70%;
 }
-
+@media (max-width: 768px) {
+	.demo-2 .large-header{
+		background-position: 50% 50%;
+	}
+}
 .demo-3 .large-header {
 	/*background: #7f8c8d;*/
 	background-image: url('../img/demo-3-bg.jpg');
